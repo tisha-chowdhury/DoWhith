@@ -1,29 +1,42 @@
-:root{
+:root {
     --main_color: #6345D5;
     --font_main_color: #192252;
-    --Urbanist:"Urbanist", sans-serif;
+    --Urbanist: "Urbanist", sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--Urbanist);
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul, ol, dl{
+
+ul,
+ol,
+dl {
     list-style-type: none;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 0.8;
 }
-.container{
+
+.container {
     max-width: 1240px;
     margin: 0 auto;
 }
+
 /* ================ navbar start ============= */
-#navbar{
+#navbar {
     padding: 23px 0;
     background-color: rgba(255, 255, 255, 0.20);
     backdrop-filter: blur(2px);
@@ -33,34 +46,41 @@ h1, h2, h3, h4, h5, h6{
     left: 0;
     z-index: 999;
 }
-.nav_wrapper{
+
+.nav_wrapper {
     display: flex;
     align-items: center;
 }
-.nav_wrapper .logo{
+
+.nav_wrapper .logo {
     width: 20%;
 }
-.nav_wrapper ul{
+
+.nav_wrapper ul {
     display: flex;
     justify-content: center;
     column-gap: 80px;
     width: 60%;
 }
-.nav_wrapper ul li a{
+
+.nav_wrapper ul li a {
     font-size: 18px;
     font-weight: 600;
     color: #606D93;
     transition: all linear 0.3s;
 }
-.nav_wrapper ul a:hover{
+
+.nav_wrapper ul a:hover {
     color: var(--font_main_color);
 }
-.nav_wrapper .nav_btn{
+
+.nav_wrapper .nav_btn {
     width: 20%;
     display: flex;
     justify-content: flex-end;
 }
-.nav_btn a{
+
+.nav_btn a {
     display: inline-block;
     text-transform: capitalize;
     font-size: 18px;
@@ -72,54 +92,65 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 8px;
     transition: all linear 0.3s;
 }
-.nav_btn a:hover{
+
+.nav_btn a:hover {
     background-color: #fff;
     color: #192252;
 }
+
 /* ================ navbar end ============= */
 
 /* ================ banner start ============= */
-#banner{
+#banner {
     position: relative;
 }
-.shape_three img{
+
+.shape_three img {
     position: absolute;
     bottom: -130px;
     left: 0;
-    z-index: -2;  
+    z-index: -2;
 }
-.shape_one, .shape_two{
+
+.shape_one,
+.shape_two {
     position: relative;
 }
-.shape_one img{
+
+.shape_one img {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
 }
-.shape_two img{
+
+.shape_two img {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: -2;  
+    z-index: -2;
 }
-.banner_wrapper{
+
+.banner_wrapper {
     display: flex;
     gap: 54px;
     padding-top: 215px;
     padding-bottom: 820px;
     /* position: relative; */
 }
-.banner_desc{
+
+.banner_desc {
     width: 503px;
 }
-.banner_desc h1{
+
+.banner_desc h1 {
     font-size: 80px;
     font-weight: 700;
     line-height: 110%;
     color: var(--font_main_color);
 }
-.banner_desc p{
+
+.banner_desc p {
     margin: 40px 0;
     max-width: 332px;
     font-size: 18px;
@@ -127,11 +158,13 @@ h1, h2, h3, h4, h5, h6{
     line-height: 150%;
     color: #848FAC;
 }
-.banner_btn{
+
+.banner_btn {
     display: flex;
     column-gap: 24px;
 }
-.banner_btn a{
+
+.banner_btn a {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
@@ -139,33 +172,40 @@ h1, h2, h3, h4, h5, h6{
     display: inline-block;
     transition: all linear 0.3s;
 }
-.banner_btn a:first-child{
+
+.banner_btn a:first-child {
     padding: 20px 40px;
     color: #fff;
-    background: var(--main_color);   
+    background: var(--main_color);
 }
-.banner_btn a:first-child:hover{
+
+.banner_btn a:first-child:hover {
     color: var(--font_main_color);
     background: #fff;
 }
-.banner_btn a:last-child{
+
+.banner_btn a:last-child {
     padding: 20px 52px;
     color: var(--font_main_color);
     background: #fff;
 }
-.banner_btn a:last-child:hover{
+
+.banner_btn a:last-child:hover {
     color: #fff;
     background: var(--main_color);
 }
-.banner_img{
+
+.banner_img {
     width: 683px;
     position: relative;
     left: 40px;
 }
-.banner_big_img_box{
+
+.banner_big_img_box {
     position: relative;
 }
-.banner_big_img{
+
+.banner_big_img {
     width: 100%;
     height: 882px;
     position: absolute;
@@ -175,7 +215,8 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 24px;
     overflow: hidden;
 }
-.banner_big_img img{
+
+.banner_big_img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -184,12 +225,13 @@ h1, h2, h3, h4, h5, h6{
 /* ================ banner end ============= */
 
 /* ================ counter start ============= */
-#counter{
+#counter {
     background-color: #201353;
     padding-top: 522px;
-    padding-bottom: 400px;
+    padding-bottom: 32px;
 }
-.counter_wrapper{
+
+.counter_wrapper {
     padding: 48px;
     border-radius: 24px;
     background-color: rgba(255, 255, 255, 0.08);
@@ -197,7 +239,8 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
     justify-content: space-between;
 }
-.counter_item{
+
+.counter_item {
     width: 28%;
     display: flex;
     align-items: center;
@@ -205,7 +248,8 @@ h1, h2, h3, h4, h5, h6{
     gap: 16px;
     position: relative;
 }
-.counter_item::after{
+
+.counter_item::after {
     position: absolute;
     content: " ";
     right: 0;
@@ -215,25 +259,162 @@ h1, h2, h3, h4, h5, h6{
     background-color: rgba(255, 255, 255, 0.20);
     transform: translate(52px, -50%);
 }
-.counter_item:last-child::after{
+
+.counter_item:last-child::after {
     display: none;
 }
-.counter_item .count_num{
+
+.counter_item .count_num {
     color: #fff;
     font-size: 48px;
     font-weight: 700;
     line-height: normal;
 }
-.counter_item .count_tittle{
+
+.counter_item .count_tittle {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.64);
     font-size: 20px;
     font-weight: 500;
     line-height: normal;
 }
+
 /* ================ counter end ============= */
 
+/* ================ feature start ============= */
+#feature {
+    background-color: #201353;
+    padding: 100px 0;
+    position: relative;
+}
+.feature_img{
+    position: absolute;
+    bottom: -2px;
+    right: 5%;
+}
+.feature_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature_heading h2 {
+    max-width: 514px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+}
+
+.feature_heading p {
+    max-width: 555px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.feature_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.feature_wrapper .box {
+    width: 368px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.transition {
+    margin-top: 48px;
+    background-color: #fff;
+}
+
+.transition_heading {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.transition p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #848FAC;
+}
+
+.transition .progress {
+    margin-top: 24px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #EFF3FA;
+    position: relative;
+    overflow: hidden;
+}
+
+.transition .progress::after {
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #6245D5;
+    border-radius: 2px;
+}
+
+.feature_wrapper .history {
+    border: 1px solid #2C1A74;
+    background-color: #201353;
+}
+
+.feature_wrapper .history_heading {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.feature_wrapper .history h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.feature_wrapper .history .skilliton {
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.feature_wrapper .history .skilliton.one {
+    width: 307px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.feature_wrapper .history .skilliton.two {
+    width: 287px;
+}
+
+.skilliton_last {
+    margin-top: 26px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+/* ================ feature end ============= */
+
 /* ================ navbar start ============= */
+.xyz {
+    background-color: #fff;
+    height: 400px;
+}
+
 /* ================ navbar end ============= */
 
 /* ================ navbar start ============= */
@@ -247,7 +428,3 @@ h1, h2, h3, h4, h5, h6{
 
 /* ================ navbar start ============= */
 /* ================ navbar end ============= */
-
-/* ================ navbar start ============= */
-/* ================ navbar end ============= */
-
