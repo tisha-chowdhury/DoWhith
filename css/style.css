@@ -297,7 +297,6 @@ h6 {
     justify-content: space-between;
     align-items: center;
 }
-
 .feature_heading h2 {
     max-width: 514px;
     font-size: 52px;
@@ -305,7 +304,6 @@ h6 {
     line-height: normal;
     color: #fff;
 }
-
 .feature_heading p {
     max-width: 555px;
     font-size: 18px;
@@ -313,30 +311,25 @@ h6 {
     line-height: normal;
     color: rgba(255, 255, 255, 0.64);
 }
-
 .feature_wrapper {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-
 .feature_wrapper .box {
     width: 368px;
     border-radius: 16px;
     padding: 24px;
 }
-
 .transition {
     margin-top: 48px;
     background-color: #fff;
 }
-
 .transition_heading {
     display: flex;
     gap: 14px;
     align-items: center;
 }
-
 .transition p {
     margin-top: 20px;
     font-size: 16px;
@@ -344,7 +337,6 @@ h6 {
     font-weight: 400;
     color: #848FAC;
 }
-
 .transition .progress {
     margin-top: 24px;
     height: 4px;
@@ -353,7 +345,6 @@ h6 {
     position: relative;
     overflow: hidden;
 }
-
 .transition .progress::after {
     position: absolute;
     content: " ";
@@ -364,7 +355,6 @@ h6 {
     background-color: #6245D5;
     border-radius: 2px;
 }
-
 .feature_wrapper .history {
     border: 1px solid #2C1A74;
     background-color: #201353;
@@ -375,14 +365,12 @@ h6 {
     gap: 12px;
     align-items: center;
 }
-
 .feature_wrapper .history h4 {
     color: #fff;
     font-weight: 600;
     font-size: 18px;
     line-height: 150%;
 }
-
 .feature_wrapper .history .skilliton {
     height: 16px;
     border-radius: 4px;
@@ -394,11 +382,9 @@ h6 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-
 .feature_wrapper .history .skilliton.two {
     width: 287px;
 }
-
 .skilliton_last {
     margin-top: 26px;
     width: 100%;
@@ -406,7 +392,6 @@ h6 {
     border-radius: 2px;
     background-color: rgba(255, 255, 255, 0.30);
 }
-
 /* ================ feature end ============= */
 
 /* ================ navbar start ============= */
