@@ -25,6 +25,13 @@ h1, h2, h3, h4, h5, h6{
 /* ================ navbar start ============= */
 #navbar{
     padding: 23px 0;
+    background-color: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 .nav_wrapper{
     display: flex;
@@ -54,6 +61,7 @@ h1, h2, h3, h4, h5, h6{
     justify-content: flex-end;
 }
 .nav_btn a{
+    display: inline-block;
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 700;
@@ -62,20 +70,168 @@ h1, h2, h3, h4, h5, h6{
     padding: 16px 40px;
     background-color: var(--main_color);
     border-radius: 8px;
-    border: 1px solid var(--main_color);
     transition: all linear 0.3s;
 }
 .nav_btn a:hover{
-    background-color: transparent;
+    background-color: #fff;
     color: #192252;
 }
 /* ================ navbar end ============= */
 
-/* ================ navbar start ============= */
-/* ================ navbar end ============= */
+/* ================ banner start ============= */
+#banner{
+    position: relative;
+}
+.shape_three img{
+    position: absolute;
+    bottom: -130px;
+    left: 0;
+    z-index: -2;  
+}
+.shape_one, .shape_two{
+    position: relative;
+}
+.shape_one img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.shape_two img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;  
+}
+.banner_wrapper{
+    display: flex;
+    gap: 54px;
+    padding-top: 215px;
+    padding-bottom: 820px;
+    /* position: relative; */
+}
+.banner_desc{
+    width: 503px;
+}
+.banner_desc h1{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 110%;
+    color: var(--font_main_color);
+}
+.banner_desc p{
+    margin: 40px 0;
+    max-width: 332px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #848FAC;
+}
+.banner_btn{
+    display: flex;
+    column-gap: 24px;
+}
+.banner_btn a{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    display: inline-block;
+    transition: all linear 0.3s;
+}
+.banner_btn a:first-child{
+    padding: 20px 40px;
+    color: #fff;
+    background: var(--main_color);   
+}
+.banner_btn a:first-child:hover{
+    color: var(--font_main_color);
+    background: #fff;
+}
+.banner_btn a:last-child{
+    padding: 20px 52px;
+    color: var(--font_main_color);
+    background: #fff;
+}
+.banner_btn a:last-child:hover{
+    color: #fff;
+    background: var(--main_color);
+}
+.banner_img{
+    width: 683px;
+    position: relative;
+    left: 40px;
+}
+.banner_big_img_box{
+    position: relative;
+}
+.banner_big_img{
+    width: 100%;
+    height: 882px;
+    position: absolute;
+    bottom: -422px;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 24px;
+    overflow: hidden;
+}
+.banner_big_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-/* ================ navbar start ============= */
-/* ================ navbar end ============= */
+/* ================ banner end ============= */
+
+/* ================ counter start ============= */
+#counter{
+    background-color: #201353;
+    padding-top: 522px;
+    padding-bottom: 400px;
+}
+.counter_wrapper{
+    padding: 48px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter_item{
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+}
+.counter_item::after{
+    position: absolute;
+    content: " ";
+    right: 0;
+    top: 50%;
+    height: 32px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.20);
+    transform: translate(52px, -50%);
+}
+.counter_item:last-child::after{
+    display: none;
+}
+.counter_item .count_num{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+.counter_item .count_tittle{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+/* ================ counter end ============= */
 
 /* ================ navbar start ============= */
 /* ================ navbar end ============= */
