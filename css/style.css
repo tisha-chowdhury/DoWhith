@@ -285,12 +285,6 @@ h6 {
 #feature {
     background-color: #201353;
     padding: 100px 0;
-    position: relative;
-}
-.feature_img{
-    position: absolute;
-    bottom: -2px;
-    right: 5%;
 }
 .feature_heading {
     display: flex;
@@ -322,7 +316,6 @@ h6 {
     padding: 24px;
 }
 .transition {
-    margin-top: 48px;
     background-color: #fff;
 }
 .transition_heading {
@@ -392,15 +385,87 @@ h6 {
     border-radius: 2px;
     background-color: rgba(255, 255, 255, 0.30);
 }
+.full_wrap{
+    position: relative;
+    margin-top: 48px;
+    display: flex;
+}
+.feature_img{
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
 /* ================ feature end ============= */
 
-/* ================ navbar start ============= */
-.xyz {
+/* ================ video start ============= */
+#video {
     background-color: #fff;
-    height: 400px;
+    padding: 132px 0 140px 0;
+}
+.video_wrapper{
+    display: flex;
+    gap: 126px;
+    align-items: center;
+}
+.video_box{
+    width: 600px;
+    height: 600px;
+    border-radius: 24px;
+    background-color: #D9D9D9;
+    /* overflow: hidden; */
+    position: relative;
+}
+.video_box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-/* ================ navbar end ============= */
+.video_play_btn{   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.video_details{
+    max-width: 514px;
+}
+.video_tittle{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--font_main_color);
+}
+.video_details p{
+    max-width: 421px;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #848FAC;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.ditails_list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ditails_list_item{
+    display: flex;
+    gap: 29px;
+    align-items: center;
+}
+.ditails_list_icon{
+    color: #219653;
+    font-size: 20px;
+}
+.ditails_list_text{
+    color: var(--font_main_color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+/* ================ video end ============= */
 
 /* ================ navbar start ============= */
 /* ================ navbar end ============= */
