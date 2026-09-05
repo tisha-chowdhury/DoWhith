@@ -741,7 +741,196 @@ h6 {
 /* ================ pricing end ============= */
 
 /* ================ review start ============= */
+#review{
+    padding: 100px 0;
+    background-color: #201353;
+}
+.review_wrapper{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+.review_main{
+    max-width: 490px;
+}
+.review_main .review_heading h2{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+}
+.review_main .review_heading p{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.64);
+    max-width: 434px;
+}
+.review_text{
+    margin-top: 64px;
+}
+.review_text p{
+    margin-top: 48px;
+    margin-bottom: 46px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #fff;
+}
+.review_text .reviewer{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.64);
+}
+.review_img_main{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+.review_img_wrapper{
+    display: flex;
+    gap: 24px;
+}
+.review_img_item{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #848FAc;
+    overflow: hidden;
+}
+.review_img_item:nth-child(2){
+    opacity: 0.75;
+}
+.review_img_item:nth-child(3){
+    opacity: 0.5;
+}
+.review_img_item:nth-child(4){
+    opacity: 0.25;
+}
+.review_img_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review_arrow{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(255, 255, 255, 0.64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.review_arrow_right{
+    font-size: 20px;
+    color: #fff;
+}
+.contact_form{
+    width: 600px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 64px 80px;
+}
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.form_heading img{
+    width: 64px;
+}
+.form_heading h4{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+.contact_form form{
+    margin-top: 48px;
+}
+.contact_form form .form_group label{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #fff;
+    display: block;
+    margin-bottom: 16px;
+}
+.form_group input{
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.form_group input::placeholder{
+    color: #848FAC;
+}
+.form_group.Massage{
+    margin-top: 24px;
+}
+.form_group textarea{
+    resize: none;
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.form_group textarea::placeholder{
+    color: #848FAC;
+}
+.form_group.btn{
+    margin-top: 40px;
+}
+.form_group button{
+    padding: 20px 159.5px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #FC9770;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+.form_group.trial{
+    margin-top: 40px;
+    text-align: right;
+}
+.form_group a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.64);
+}
+.form_group a span{
+    font-weight: 600;
+    color: #fff;
+    margin-left: 8px;
+}
 /* ================ review end ============= */
 
 /* ================ footer start ============= */
+#footer{
+    padding-top: 100px;
+    background-color: #201353;
+}
 /* ================ footer end ============= */
