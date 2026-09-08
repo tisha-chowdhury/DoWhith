@@ -227,7 +227,6 @@ h6 {
 }
 
 .counter_item {
-    width: 28%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -297,7 +296,7 @@ h6 {
     gap: 24px;
 }
 .feature_wrapper .box {
-    width: 368px;
+    max-width: 368px;
     border-radius: 16px;
     padding: 24px;
 }
@@ -371,16 +370,7 @@ h6 {
     border-radius: 2px;
     background-color: rgba(255, 255, 255, 0.30);
 }
-.full_wrap{
-    position: relative;
-    margin-top: 48px;
-    display: flex;
-}
-.feature_img{
-    position: absolute;
-    top: 0;
-    right: -40px;
-}
+
 /* ================ feature end ============= */
 
 /* ================ video start ============= */
